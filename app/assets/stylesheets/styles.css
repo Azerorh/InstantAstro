@@ -1,0 +1,20 @@
+.logo {
+	height: 24px;
+}
+.card-main {
+	height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.coordinates {
+	margin-top: 10px !important;
+}
+form.nathal .underline {
+	border-bottom: 1px solid gray;
+}
+.cors {
+	display: flex;
+}
+.cors input {
+	height: 100%;
+}
