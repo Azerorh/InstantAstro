@@ -8,14 +8,14 @@ development:
   username: <%= Rails.application.credentials[:username] %>
   password: <%= Rails.application.credentials[:password] %>
   host: localhost
-  database: app_development
+  database: astro_development
 
 test:
   <<: *default
   username: <%= Rails.application.credentials[:username] %>
   password: <%= Rails.application.credentials[:password] %>
   host: localhost
-  database: app_test
+  database: astro_test
 
 production:
   <<: *default
